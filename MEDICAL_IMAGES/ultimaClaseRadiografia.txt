@@ -1,0 +1,98 @@
+RADRIOGRAFIA
+
+radriografias: cONVENCIONAL O POR pROYECCIÓN
+
+COMO FUNCINO LA IDEA:  Tenemos el generador de tubo de rayos X 
+
+
+psciente hace el proceso de atenuacion . lo que capturamos es lo  que se absorbe o se captura por el cuerpo es la intensidad de la imagen.
+
+Que tan cerca de la fuente pongo el objeto
+Que tan cerca del detector
+Que pasa con el cuerpo cuando absorbe los rayos X
+
+
+	TUBO RATOS X----> Se hace un filtrado de los rayos X, ya que se generan unos rayos X con una cierta Energia , pero tambien otros de ejemplo bajas energias que no nos sirven para generar imagenes
+q	úes no toeiene energia suficiente para generar la imagen, pero si se quedan y se absorben por el cuerpo.
+	Asegurarse que los rayos X que llegan son los que se quieren .
+
+Filtrado: Cuando se generan los rayos X se hace un 1 filtrda(filtrado inherente) que se phace con el tubo de tayos XX
+		Un filtrado entre el anodo, el catodo el vidrio y el aceite, se filtra algo.
+		Luego s ehace el FILTRADO AÑADIDO: Se le agregan unas grillas de metal que ayudan que los fotones de baja Energia se queden alli atrapados,
+		y los otros de alta energia si puedan seguir derecho. 
+Endurecimiento del haz de rayos X: EL PROCESO DE FILTRAR LSO RAYOS CAUSA DISMINUCION DE LA INTENSIDAD Y DE LA BANDA DE ENERGIA CONNCENTRANDOLA ENE L AREA DEINTERES.
+
+Dispersion Conton: ...
+
+Resstriccion del haz de rayos X : Para evitar que los rayos salgan en angulos incorrectos y disparaen otras partres del objeto que no es deinteres .
+		Se utilizan diafragmas y rejillas con aperturas 
+
+Filtros de compensascion: Filtros para compensar la forma de lo que voy a irradiar. Ejemplo si irradio un pie, en la parte proximal hay mas objeto y 
+		en la parte distal del pie hay menos hueso y carne. pARA Estos eusan Filtros de compensascion .
+		eL TORSO en la mitad es más grueso que en los bordes.
+
+Una vez el rayo X ya ha atravezado el cuerpo...........
+
+Puede suceder que al llegar al cuerpo algunos llegen y sigan derecho pero otros rayos X rmpiecen a dispersarse, es decir se chocan con el 
+		cuerpo y se desvian.
+
+Rayos X PRIMARIOS: Los rayos que siguen derecho y sirven para generar la imagen
+
+Otros: Rayos X desviados 
+. Necesit
+Lo ideal sería que solo los rayos primarios lleguen al detecor: Necesito una manera de filtrar espo (Una griflla o filtro)
+		Los rayos primarios pasan por los espacios de la grilla :
+Grilla: Filtro con espacios alternados transparente opaco a los rayos X. 
+	
+	La grilla va a dejar una sobra , por lo que la grilla se mueve generalmente en circulos, para hacer una lectura de los rayos primarios generales de toda la imagen. 
+
+
+Otra forma simple de filtrar los rayos desviados, es alejar el objeto del detector, para que los rayos desviados no peguen en el detector.
+
+Otra posibilidad (mas costosa): HACER UN ESCANEO POPOR SLOTS 
+
+MAGNIFICACION GEOMETRICA: Es un efecto de la captura y geometria de la fuente al objeto y de la fuente al detector, donde se genera un haz, que realiza una magnificacion del objeto sobre el detector.
+			Ademas los bordes de la radigrafia pierden su defiunicion por eso estas s even mas borrosas en los bordes. 
+			La imagen es una proyeccion de luz , tiene estructuras superpuestas. 
+
+MAMOGRAFIA: Tipo especial de radiografia: en le porceso de captura e sdiferente, lo que se captura sigue siendo la atenuacion atraves del tejido mamario.
+		Se hace una compresion del seno. se mete el seno en una mqaquina ys e lo comprime, luego el haz de rayos X genera la camputra. 
+
+Aveces no es suficiente la atenucacion que se genera por algun tipo de tejido.
+
+INYECCION DE UN AGENTE DE CONTRASTE O RADIOCONTRASTE: Algun elemento quimico que me permite realizar ciertas estructuras al incrementar la atenuacion en esas estructuras
+		Es una agente que absorbe mmás rayos X y se genera la visualicacion
+		Basados en Yodo. para esctudiar generalemtne el sistema circykatorio.
+		Bario. Sistema digestivo.  
+
+RADIOGRAFIA DE SUSTRACCION DIGIRTAL: Una imagen incial sin contraste. le inyectan el contraste y le toman otra imagen en la exacta misma posciion. La imagen original y al imagen final tienen lamisma informacion .
+		Al hacer la diferencia de las dos imagenes se hace un realcec de las 2 imagenes 
+
+
+RESOLUCION: De que depende, que tanata puedo obtener, es la cantidad edetalle de acuerdo del modo de captura
+		- De la calida del Anodo: que tan buen angulo me genera el anodo para que el haz de electrones tengauna buena gemotria.
+		De paciente: No es lo mismouna image de toras¿x de un gordito vs un flaquito. tienen diferentes cantidades de tijidos 
+		- TAMAÑO EFECTIVO DEL HAZ DE RAYOS 
+		- La distnaica en rra la fuente del haz ey el paciente yu e l receptor
+		- Tamaño, forma y tecnologia de oclimadores y detectores.
+
+RUIDO: Puede venir de diferentes fuentes: Desde que el rayo sale del haz hasta que puede llegar al detector.
+		La relacion señal a ruido e sproporcional a la raiz cuadrada del produto del timepo en exposicion y la corriente en el tubo de rayos X
+
+
+ruido inherente al proceso
+
+artefactos que pueden aparecer por elemnotos accesorios, algunacosa que falla, etc, la mecania del proceso, etc.
+
+
+VENTAJAS DE LA RADIOGRAFIA:- un timepo corto de expocicion.
+		- se puede capturar una imagen relativamente grande
+		- hoy en dia es algo de bajo costo
+		- baja exposicion a la radiacion(3-4 mR)
+		- buen contraste y buena resolucion espacial
+
+DESVENTAJAS DE LA RADIOGRAFIA: - es una tecnologia  de proyeccion, no tengo informacion de profundida, solo proyeccion. 
+		- limitacion de contraste en ciertas estructuras. 
+
+Primera forma de imagen medica que surgio .
+

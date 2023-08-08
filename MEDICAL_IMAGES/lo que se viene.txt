@@ -1,0 +1,33 @@
+este jeuves no vamos a tener sesion presencial. pero si vamos a avanzar el jeuves.
+2
+
+"les voy a enviar una informacion con la tarea que tienen que hacer en las 2 horas de clase reservaddas
+
+
+
+Dentro de 8 dias es un taller, se debe estar ducho enabrir la imagen y ver la informacion de la imagen en cada posocioin en matlab o en python
+
+.de este jeuves en 8: primera entrega del proyecto: Preparar 1 presentacion con una duracion de 12-15 mintos.
+			Que tnega mas imagenes que texto. la idea es hablar sobre las imagenes en general. no solo texto
+: +
+		FORMULACION DE MI PROYECTO: Describir las imagenes que vamos a utilizar:
+				1. La modalidad (radio, tomo, ultra, microscmopia, medina nuckear, spet, fucntinonalMRI, la que quieran explorar
+				2. Escoger la parte anatomica del cuerpo en la que me voy a enfocar
+				3. con esa modalidad y esa parte del cuerpo ¿Que quiero hacer?. que me va apermitr hacer un analisis en esas imagenes
+						Quiero ver un tumor, como se expresa la esclerosis, como es el movimeinto del ventriuclo, como es el pulmon, quiero contar globulos blacnos, o contar parasitos.9 
+						con la modalidad de imagen que tengo(venm desv, caract, resalta ) que ma va a permitir hacer. (No queire decir que lo vayamos a hacer en el curos, la idea es decir, en TEORIOA con esta imagen se podria plantear este tipod etratamiento, o este tipo de cosas
+					REsponder -dar contexto.
+					De donde salen esas imagenes	
+					cuantas tengo
+					que caracteristiacs tienen esa imagene debido ala modalidad+
+					por la parte anatomica nefcesito un proceso especifico o una imagen (DILATAR LA PUPILA)
+
+					Digitalmente como se puede adquirir laimagen, que fomrato. Que caracteristicas tienen el formato especifico.(el formato original de la maquina real)
+					Que quiero ver en esas imagenes: par acontar , para medir, para identificar...
+
+
+SEGUNDA ENTREGA: ES LA BUSQUEDA DEL ESTADO DEL ARTE:
+			Ejemplo . si quiero detectar un tumor en un pulmon, buscar en articulos cmomo lo han ehcho y buscar unos 4 articulos. 
+				buscar como han sido las iplementacions y ver como lo podriamos implementar nosotros mismos.
+
+			La idea es intentar reproducir lo que encontremos en los artiuclos "" pero ella nos va a dar retoralimentaciones despeus de la presentacion de entrega 2
