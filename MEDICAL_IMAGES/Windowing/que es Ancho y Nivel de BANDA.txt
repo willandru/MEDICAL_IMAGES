@@ -1,0 +1,20 @@
+El NIVEL se encuentra en el centro de la ventana.
+
+Ventana Corta:
+	- Muestra una menor cantidad de colores grises
+	- Incrementa el CONTRASTE
+	- Bueno con cosas con valores similares de ATENUACION: soft tissues
+	- "soft tissue" tiene un acho de ventana de 50-350
+	
+
+
+Ventana Amplia: MAS CANTIDAD DE PIXELES O ESCALA DE GRISES PUEDES MOSTRAR, un pequeño cambio en housing value(atenuation) puede no mostrar diferencia en la imagen.. 
+
+	- Muestra una amplio numero de colores en grises.
+	- Decrese el CONTRASTE
+	- Mejor para estructuras con diferencia marcada en los valores de ATENUACIÓN
+	- Pulmones vs Bronquios
+	- "lung window" tiene un acnho de banda amplio de 400-2000 
+
+
+VENTANEO NOS POERMITE CAMBIAR EL CONTRASTE Y RESALTAR DIFERENTES ESTRUCTURAS.
