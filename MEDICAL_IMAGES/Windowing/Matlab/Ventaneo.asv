@@ -129,9 +129,8 @@ I_2= ancho2.*I_2 + nivel2;
 I_3= ancho3.*I_3 + nivel3;
 
 I_1= I_1.*I1;
-I_2= I_2.*I2;
-I_3= I_3.*I3;
-
+I_2= I_2.*I1;
+I_3= I_3.*I1;
 I_S=I_1 + I_2 + I_3;
 
 A=uint8(A);
@@ -142,23 +141,37 @@ I_3=uint8(I_3);
 
 figure(2)
 
+subplot(2,4,1)
+imshow(A)
+title('Orignial')
 
-subplot(2,3,1)
+subplot(2,4,2)
 imshow(I_1)
 title('Ventana 1')
 
-subplot(2,3,2)
+subplot(2,4,3)
 imshow(I_2)
 title('Ventana 2');
 
-subplot(2,3,3)
+subplot(2,4,4)
 imshow(I_3)
 title('Ventana 3')
 
-subplot(2,3,5)
-imshow(I_S)
-title('Ventaneo por Secciones')
+subplot(2,4,5)
+imhist(A)
+title('Hist Ori')
 
+subplot(2,4,6)
+imhist(I_1)
+title('Hist 1')
+
+subplot(2,4,7)
+imhist(I_2)
+title('Hist 2')
+
+subplot(2,4,8)
+imhist(I_3)
+title('Hist 3')
 
 sgtitle('Ventaneo por Secciones');
 %% TERCER PUNTO
