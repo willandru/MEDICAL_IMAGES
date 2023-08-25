@@ -1,14 +1,31 @@
 clear, clc, close all; 
 A = imread('eco_gray.png');
-
-
+disp('Imagen Leida...')
 disp(['El valor máximo de esta imagen es: ', num2str(max(A(:)))]);
 disp(['El valor minimo de esta imagen es: ', num2str(min(A(:)))]);
 
-m_anchoBanda=1.7;
-b_nivelVentana=-20;
 
-I= m_anchoBanda.*A + b_nivelVentana;
+disp('PRIMER PUNTO')
+
+anchoVentana=input('Inserte el ancho de la Ventana: ');
+nivelVentana=input('Inserte el nivel de la Ventana: ');
+
+LimiteSuperior=nivelVentana + anchoVentana/2;
+LimiteInferior=nivelVentana - anchoVentana/2;
+
+b=LimiteInferior;
+m= LimiteSuperior / max(A(:));
+
+LI= double(A<LimiteInferior);
+LS= double(A>LimiteSuperior);
+
+% Imagen Filtrada
+I = m.*A + b;
+
+
+I(LI == 1) = 0;   % Asignar 0 a píxeles debajo de la ventana
+I(LS == 1) = 255; % Asignar 255 a píxeles arriba de la ventana
+
 
 figure(1)
 subplot(1,2,1)
@@ -16,16 +33,19 @@ imshow(A)
 title('Imagen Original')
 subplot(1,2,2)
 imshow(I)
-title(['Filtro Lineal con  Ancho= ', num2str(m_anchoBanda), ' y Nivel= ', num2str(b_nivelVentana)]);
+title(['Filtro Lineal con  Ancho= ', num2str(anchoVentana), ' y Nivel= ', num2str(nivelVentana)]);
 
 sgtitle('Ventaneo Clásico');
-% se asinga un nvivel y un ancho de ventana, pa alo cual todos los valores
-% por fura de esta ventana seran asignados a blanoc o negro segun
-% corresponda
+
+
 
 %% SEGUNDO PUNTO
+clear, clc; 
+A = imread('eco_gray.png');
+disp('Imagen Leida...')
 
-
+disp('SEGUNDO PUNTO')
+disp('Ejemplo, inserte: 50,100,151,100,230,20 ')
 FlagVentanas = false;
 FlagV1 = false;
 FlagV2 = false;
@@ -97,9 +117,6 @@ while ~FlagVentanas
     end
 end
 
-%%
-
- % m= ancho , b=nivel
 
 limite0=nivel1- ancho1/2;
 limite1=nivel1+ ancho1/2;
@@ -107,6 +124,9 @@ limite2=nivel2- ancho1/2;
 limite3=nivel2+ ancho1/2;
 limite4=nivel3- ancho1/2;
 limite5=nivel3+ ancho1/2;
+
+LI= double(A<limite0);
+LS= double(A>limite5);
 
 
 I1= double((A >= limite0) & (A<= limite1));
@@ -119,7 +139,9 @@ I_1 = A.*I1;
 I_2 = A.*I2;
 I_3 = A.*I3;
 
-
+a1=ancho1;
+a2=ancho2;
+a3=ancho3;
 ancho1=255/ancho1;
 ancho2=255/ancho2;
 ancho3=255/ancho3;
@@ -140,20 +162,24 @@ I_1=uint8(I_1);
 I_2=uint8(I_2);
 I_3=uint8(I_3);
 
+I_S(LI == 1) = 0;   % Asignar 0 a píxeles debajo de la ventana
+I_S(LS == 1) = 255; % Asignar 255 a píxeles arriba de la ventana
+
 figure(2)
 
 
 subplot(2,3,1)
 imshow(I_1)
 title('Ventana 1')
+title(['Ventana 1 Ancho= ', num2str(a1), ' y Nivel= ', num2str(nivel1)]);
 
 subplot(2,3,2)
 imshow(I_2)
-title('Ventana 2');
+title(['Ventana 2 Ancho= ', num2str(a2), ' y Nivel= ', num2str(nivel2)]);
 
 subplot(2,3,3)
 imshow(I_3)
-title('Ventana 3')
+title(['Ventana 3 Ancho= ', num2str(a3), ' y Nivel= ', num2str(nivel3)]);
 
 subplot(2,3,5)
 imshow(I_S)
@@ -162,4 +188,37 @@ title('Ventaneo por Secciones')
 
 sgtitle('Ventaneo por Secciones');
 %% TERCER PUNTO
+clc, clear;
 
+disp('TERCER PUNTO')
+A = imread('eco_gray.png');
+disp('Imagen Leída..')
+alfa= input('Ingrese el ancho de ventana para el filtro Sigmoide: ');
+beta=input('Ingrese el nivel de ventana para el filtro Sigmoide: ');
+
+
+
+LimiteSuperior=beta + alfa/2;
+LimiteInferior=beta - alfa/2;
+
+b=LimiteInferior;
+m= LimiteSuperior / max(A(:));
+% Convertir m y b a double
+m = double(m);
+b = double(b);
+
+LI= double(A<LimiteInferior);
+LS= double(A>LimiteSuperior);
+
+% Crear una matriz para almacenar la imagen resultante
+I=1 ./ (1 + exp(-m * (double(A) - b)));
+
+% Aplicar el filtro en función de LI y LS
+I(LI == 1) = 0;   % Asignar 0 a píxeles debajo de la ventana
+I(LS == 1) = 255; % Asignar 255 a píxeles arriba de la ventana
+
+
+
+figure()
+imshow(I)
+title(['Filtro Sigmoide con  Ancho= ', num2str(alfa), ' y Nivel= ', num2str(beta)]);
