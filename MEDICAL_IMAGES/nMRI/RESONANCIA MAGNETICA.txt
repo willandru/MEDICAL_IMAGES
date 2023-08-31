@@ -1,0 +1,97 @@
+RESONANCIA MAGNETICA
+
+FENOMENO FISICO vs COMO UTILIZAMOS EL FENOMENO FISICO PARA GENERAR UNA IMAGEN
+
+ResonMagne: Un conjunto de fenomenos fisicos usados para reepmtretar la informacion y regrenra  así uinaimagen
+
+
+No RADIACIÓN.
+Mas seguro
+Mirar las propiedades fisicas de los átmos
+fenomeno relacionado a como que sucede a nivel del atomo adentro
+
+
+FISICA CUANTICA
+
+
+Magnetismo Nuclear: El atomo esta conformado por particulas y tenemos loselementos de la naturleza.
+	
+	SPIN: Numero de momento angular O rotan o se orientan con el campo magnetico. Es una orientacion de las particulas
+
+
+Hidrogeno un unico proton.
+
+	Spin: una popropiedad de los nucleos o particulas de tener una orientacion preferente , ademas uno puede asumir que estan girando a lrededor de ese eje. Cuando se impone un campo magnetico , el spin se alinea en la misma o encontra al campo magnetico.
+
+	Trabajaremos con el ihdrogenero a lserm ams sencillo. ademas es el presente con más abundancia en el cuerpo.
+
+Cuando se aplica el campo magnetico >>> El spin se alinea con el campo >> pero ependienodo de si es eln la misma direccion en encontra, camos a decir que tienen diferentes niveles.
+
+Cuanod me alineo con el campo >> Poca Energia >> Nucleos de baja energia
+
+Me alineo en direccion contraria >> Necesito mucha energia para matnerner esa direrccion enc ontra >> Nucleso con más alta energía
+
+MAGNETISMO NUCLEAR: 
+
+a ESE MAGNETISMO NUCLEAR LE VAMOS A AGREGAR LA RESONANCIA: cOMO OCURRE ESE FENONMENO DE RESONANCIA MAGNETICA NUCLEA.
+
+
+
+
+resonancia magnetica nuclear:
+Para poder detectar los nuvcleos vamos a perturabarlso para que puedan generar energia. Durante el mcapo amgnetico estan estables con su espin orientado >> queremos perturbarlso con unpulso de energia adicional par apoder medir que pasa cone sa energia con la que .
+Utilizamos un puslo de radiofrecuencia. Un pulso de baja frecuencia. >> Se genera un NUEVO campo magnético, que hace que esos núcleos , puedan absorver energía y cambiar de estado de energía. Los de basa energía 'libres' cambian de energía de baja energía a alta energía.
+
+AUN NO SABES DONDE ESTAN ESOS NÚCÑELOS
+
+
+>>> apagamos ese pulsod e radiofrecuencia. Los núcleos entonces van a volver a su estado original, esto les implica librerar energía en forma de ondas camputradas con otra bonina.
+
+
+
+
+AL PONER UNOS NUCLEOS EN UN CAMPO MAGNETICO, Y LUEGO APLICAR UN NUEVO CAMPO MAGNETICO CON UN PULSOD E RADIO FRECUENCIA, ESOS NUCLEOS RESUENNAN CON ESA RADIOCRECUENCIA Y ABSROBNEN ENERGIA. AL QUITAR LA RADIOFRECUENCA, LOSNUCELOS VUELVENA SU ESTADO ORIGINAL Y LIBERAN ENERGÍA , QUE ES LA QUE CAPTURAMOS Y MEDIOMOS.
+
+
+Resuenna los nucelos para obtener energpia y poder liberarla. son quisquillosos l lso nucleos. SOlo absorben energía si la frecuencia que llega es la frecuencia de resonancia especifica que ademas depende de la intensidad del campo magnetico. 
+
+Para tener diferenctes frecuencias de resosnancias y hacer que se responada a frecuecnias diferetens.
+
+Vamosa variar uestro campo magnetico, para hacer que en unas partes se requera algo y entras otra  frecuencida de resinancia. Aasí se hace de forma selectiva la parte que quiero medir.
+
+
+EL GRANIEL: La bobina que permite varriar la intensidad del campo magnetico													
+
+
+Resonancia MAGNETICA nUCLEAR
+
+
+¿que reiesogos hay?
+
+-----------------------------------------------------------------------------------------------------
+
+nMRI: CONSTRUYENDO LA IMAGEN.
+
+SEÑAL: amplitud, frecuencia y fase.
+Transformada de Fourire: Los nuecles resonanbana  ciertas frecuencias.+
+
+
+1. Seleccion del corte: Necesito poner un gradiente, para modificarla itensidad del campo magnetico, a sí modificar la frecuecncia de reosnancia de los nucleos. Se pone la bobina de gradiente adelante de imán. Se aplica un gradiente a lo largo de un eje. SE TOMA UN CORTE, donde solo reaccionanran los nucleso que resuenen a esa frecuencia de resisnancia
+
+
+2. Codificacion de la frecuecnia: Vamos a palciar un 2 campo magnetico en otro eje, para modificar la frecuencia de resoanancia de los nucleos tanto a lo alrgo ncomoo a lo ancho. Dentrod el corte ahora vamos a tenre un gradiente de frecuecnias
+3. Codificacion de la fase: Aplicar un 3 campo magnetico gardiente. Ese nos partmite genrear la fase de resonancia de los NUCLEOS. PARA LA FASE.ESte cambio de fase me permite uboicar esas frecuencias debtroo de la filita . y puedo decir a que corresponde a cada una de esas contribucines.
+4. Reconstruccion de Fourier: POnemos la informacion de frecuencias en el espacio de Fourier. Fourier: Llamado el espacio K
+
+
+EL CENTRO DE LA IMAGEN DE LA TRASNGORMADA DE FOURIRER: TIEN informacion de baja frecuencia, comoque se ve borrosa la imagen. La parte extrena de la imagen de fourier tiene info de alta frecuencia. 
+
+------------------------------------------------------------
+
+
+SECUENCIA DE PULSO:
+	Teimepos de relajacion: relajacionq ue hace el nucleo cuaondo veuelve a su orietnacion originnal.T1: timepo de relacacion recupera un estado estable Y T2: teimpo de dispersion de fase, en la que parte de la magnetizacion retorna a cero. 
+
+	Teimpo de Secuecian: Teimpo de repeticion: el tiempo hasta que vuelvo a aplicar la RAFIO FRECUENCIA y tiepmo de eco: en que me demoro en diefticifasrla respuesta a ese pulso DESPUES de enviar la señal de radiofrecuecnia. .
+
+SECUENCIA SPIN ECHO, GRADIENT ECHO, Y ECHO PLANAR 
