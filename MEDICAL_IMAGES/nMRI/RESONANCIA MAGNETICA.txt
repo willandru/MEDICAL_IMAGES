@@ -95,3 +95,49 @@ SECUENCIA DE PULSO:
 	Teimpo de Secuecian: Teimpo de repeticion: el tiempo hasta que vuelvo a aplicar la RAFIO FRECUENCIA y tiepmo de eco: en que me demoro en diefticifasrla respuesta a ese pulso DESPUES de enviar la señal de radiofrecuecnia. .
 
 SECUENCIA SPIN ECHO, GRADIENT ECHO, Y ECHO PLANAR 
+
+
+Se necesita un campo magnetico muy fuerte: .6 -1.5 Teslo (1.5 Tesla hoy en día es muy comun)
+- Ahora se esta migrando a 3.0 Tesla, puedo seleccikonar mas frecuencias de resonancia , y tener mas resolución. 
+-CAMPO MAGNETICOS GRADIENTES: 30 a 45 mT
+
+Examen de 20 a 45 minutos. 
+
+
+pARA MANTETNER ESOS CAMPONS MAGENTICOS, SE NECESITA Electroimanes superconductroe
+
+El resonador esta en helio y siempre queda prendido- PARA APAGARLO TOCA qUITAR el helio. 
+
+Como siempre esta prendidio., to no le puedo poner elementos metalicos cerca. 
+
+---------------
+
+
+contraste: Tienen ua buena sensibilidad al contraste de los tejidos blandos, la tomografia era buan para cosas dura, ene ste caso l Nmir es muy buena para los tejidos blandos. 
+La relacion contrsaste /ruido:depende de la secueicna de pulso , muestreo espacial, promedio de señal, de la potenia del campo, de olos tiempos T1 y T2, la senibilida de la bobina, etc, etc,et.
+
+Podemos utilizar agentes de contraste: Contrste paragmagnetico.
+
+RUIDO: Tabien depende de la forma en que valla a adquirir al iamgen, de los elemenos del contraste ruidp.
+	El ruido se mejora con el promediadodi o promedio de la señal. 
+
+
+Promedio de la señal. Pasamos 4 señales y las promediamos
+
+
+ARTEFACTOS: aDEMAS DEL CONTRSETE, Y PORBLEMAS PRO EL RIDO.. eFECTO DE volumen parcial. SUPERPOSICIÓN,: Se mejora utilizando un cmapo magnetico mas fuerte. 
+
+superposicion: aL MOMENTO DE SELECCIONAR LOS GRADIENTES, Pueden quedar unas zonas sin gradiente
+
+Inhompogeneidad del campo magnetico: Muchos factoers fisicos hacen que el campo magnetico no sea tan homogeneo, algnuas patrtes se ven más brillantes, y otras más opacas, del mismo tejido. 
+
+- De movimiento.  tambein pueden reduirse con posprocesamiento. 
+
+
+
+
+
+
+
+
+
