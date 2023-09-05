@@ -1,4 +1,4 @@
-clc, clear, close all;
+
 
 circ = [ 0 0 110 2;
  -65 0 20 1;

@@ -9,6 +9,8 @@ figure(7)
  title('Sinograma generado con la transformada de Radon')
  xlabel('Posicion')
  ylabel('Angulo')
+
+ 
 % reconstruir la imagen con la transformada inversa, aplicando un filtro
 RamLak_filtered=iradon(R, theta, 'linear','Ram-Lak', 1.0, size(phantom,1));
 RamLak_filtered=imrotate(RamLak_filtered,90);

@@ -11,7 +11,7 @@ myFilter = repmat(myFilter,1,256);
 % multiplicar en frecuencia, luego trasladar, luego transformada inversa
 sinogramfilt=abs(ifft(ifftshift(sinogramfiltered.*myFilter)));
 % visualizar el sinograma filtrado en Theta = 45 grados
-figure(4)
+figure(4)   
  % 45 grados es la proyeccion #64 (256*45/180)
  plot(r, sinogram(:,64)./max(sinogram(:,64)), '-',...
  r, sinogramfilt(:,64)./max(sinogramfilt(:,64)),':');
