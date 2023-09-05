@@ -1,3 +1,4 @@
+clc, clear, close all;
 % definicion de los parametros para cada circulo dentro de la imagen
 % parametros: centro en x, centro en y, radio, coef. atenuacion (intensidad)
 circ = [ 0 0 110 2;

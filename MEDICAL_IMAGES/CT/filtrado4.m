@@ -1,7 +1,7 @@
 % transformar en Fourier el sinograma,
 % luego trasladar para centrar las bajas frecuencias
 sinogramfiltered=fftshift(fft(sinogram));
-% filtrar el sinograma usando un filtro Ram-Lak
+% filtrar el sinograma usando un filtro     
 a = length(sinogram);
 % pendiente -1 hasta 128, luego +1 hasta 256
 freqs=linspace(-1, 1, a/2).';
@@ -10,6 +10,10 @@ myFilter = abs(freqs);
 myFilter = repmat(myFilter,1,256);
 % multiplicar en frecuencia, luego trasladar, luego transformada inversa
 sinogramfilt=abs(ifft(ifftshift(sinogramfiltered.*myFilter)));
+
+
+
+
 % visualizar el sinograma filtrado en Theta = 45 grados
 figure(4)   
  % 45 grados es la proyeccion #64 (256*45/180)

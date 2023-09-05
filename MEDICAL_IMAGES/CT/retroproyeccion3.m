@@ -9,9 +9,9 @@ x = dx * ([1:nx]'-(nx+1)/2);
 y = -dx * ([1:ny]'-(ny+1)/2);
 
 
+
 lamin = zeros(nx,ny);
 for ia = 1:na
- disp(sprintf('angulo %g de %g', ia, na));
  % extraer angulo actual del sinograma
  projection_ia=sinogram(:,ia);
  % difuminar angulo actual en 128*128
